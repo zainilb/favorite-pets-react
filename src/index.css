@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f8f5;
+  color: #24332b;
+}
+
+.pet-photo {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 9px;
+  border: 1px solid #dfe6e0;
+  background: #fff;
+}
+
+.form-control:focus {
+  border-color: #78b995;
+  box-shadow: 0 0 0 0.2rem rgba(84, 158, 112, 0.15);
+}
+
+th, td { vertical-align: middle; }
